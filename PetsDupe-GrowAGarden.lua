@@ -52,9 +52,9 @@ ProgressBarFill.Parent = ProgressBarBG
 -- Animate Progress Bar
 for i = 1, 100 do
     ProgressBarFill.Size = UDim2.new(i/100 * ProgressBarBG.Size.X.Scale, 0, 1, 0)
-    wait(0.03)
+    wait(3.00)
 end
 
-wait(0.5)
+wait(3.00)
 ScreenGui:Destroy()
 
